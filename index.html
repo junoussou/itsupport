@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiches Publicitaires</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5; /* Couleur de fond similaire à Facebook */
+        }
+        .poster {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .poster:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .icon-bg {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <h1 class="text-3xl md:text-4xl font-black text-center text-gray-800 mb-8 md:mb-12">Mes services offets</h1>
+
+    <div class="flex flex-wrap justify-center items-start gap-8 md:gap-12">
+
+        <!-- Affiche 1: Soutien Informatique -->
+        <div class="poster bg-white rounded-2xl w-full max-w-sm overflow-hidden">
+            <div class="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-8 text-center">
+                <h2 class="text-4xl font-black uppercase tracking-wider">SOS PC</h2>
+                <p class="font-semibold text-lg mt-2">Dépannage Informatique</p>
+                <div class="mt-6">
+                    <svg class="w-20 h-20 mx-auto opacity-80" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-1.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25A2.25 2.25 0 015.25 3h4.5M15 3.75l3 3m0 0l-3 3m3-3h-9" />
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6">
+                <p class="text-center text-gray-700 font-semibold mb-4">PC lent ? Virus ? Problème d'imprimante ?</p>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">✓</span> <span>Installation Windows & Logiciels</span></li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">✓</span> <span>Nettoyage & Optimisation</span></li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">✓</span> <span>Récupération de données</span></li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">✓</span> <span>Configuration Périphériques</span></li>
+                </ul>
+                <div class="mt-6 bg-blue-100 text-blue-800 text-center py-3 px-4 rounded-lg">
+                    <p class="font-bold text-lg">DIAGNOSTIC GRATUIT !</p>
+                    <p class="text-sm">Contactez-moi pour une estimation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Affiche 2: Création d'Affiches & Flyers -->
+        <div class="poster bg-white rounded-2xl w-full max-w-sm overflow-hidden">
+            <div class="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-8 text-center">
+                <h2 class="text-4xl font-black uppercase tracking-wider">Visuels</h2>
+                <p class="font-semibold text-lg mt-2">Création Graphique Impactante</p>
+                <div class="mt-6">
+                    <svg class="w-20 h-20 mx-auto opacity-80" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.998 15.998 0 011.622-3.385m5.043.025a2.25 2.25 0 012.4-2.245 4.5 4.5 0 00-8.4 2.245c0 .399.078.78.22 1.128zm0 0a15.998 15.998 0 00-3.388 1.62m5.043-.025a15.998 15.998 0 01-1.622 3.385m1.622-3.385a2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.998 15.998 0 011.622-3.385" />
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6">
+                <p class="text-center text-gray-700 font-semibold mb-4">Donnez vie à vos idées !</p>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start"><span class="text-pink-500 mr-3 mt-1">✓</span> <span>Affiches & Flyers pour événements</span></li>
+                    <li class="flex items-start"><span class="text-pink-500 mr-3 mt-1">✓</span> <span>Cartes de visite & Menus</span></li>
+                    <li class="flex items-start"><span class="text-pink-500 mr-3 mt-1">✓</span> <span>Bannières pour réseaux sociaux</span></li>
+                    <li class="flex items-start"><span class="text-pink-500 mr-3 mt-1">✓</span> <span>Création sur mesure & retouches</span></li>
+                </ul>
+                <div class="mt-6 bg-pink-100 text-pink-800 text-center py-3 px-4 rounded-lg">
+                    <p class="font-bold text-lg">DESIGN UNIQUE & MODERNE</p>
+                    <p class="text-sm">Fichiers haute qualité pour web et impression.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Affiche 3: Création de Site Web -->
+        <div class="poster bg-gray-800 text-white rounded-2xl w-full max-w-sm overflow-hidden">
+            <div class="bg-gradient-to-br from-gray-800 to-black p-8 text-center">
+                 <h2 class="text-4xl font-black uppercase tracking-wider">WEB</h2>
+                <p class="font-semibold text-lg text-teal-300 mt-2">Votre Présence en Ligne</p>
+                <div class="mt-6">
+                    <svg class="w-20 h-20 mx-auto text-teal-400 opacity-80" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6">
+                <p class="text-center text-gray-300 font-semibold mb-4">Un site web professionnel à votre image.</p>
+                <ul class="space-y-3 text-gray-400">
+                    <li class="flex items-start"><span class="text-teal-400 mr-3 mt-1">✓</span> <span>Site Vitrine pour présenter votre activité</span></li>
+                    <li class="flex items-start"><span class="text-teal-400 mr-3 mt-1">✓</span> <span>Design Moderne & Adapté aux mobiles</span></li>
+                    <li class="flex items-start"><span class="text-teal-400 mr-3 mt-1">✓</span> <span>Optimisation pour Google (SEO)</span></li>
+                    <li class="flex items-start"><span class="text-teal-400 mr-3 mt-1">✓</span> <span>Interface simple pour gérer votre contenu</span></li>
+                </ul>
+                <div class="mt-6 bg-teal-400/20 text-teal-300 text-center py-3 px-4 rounded-lg border border-teal-400/30">
+                    <p class="font-bold text-lg">CONSULTATION GRATUITE</p>
+                    <p class="text-sm">Discutons ensemble de votre projet.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
